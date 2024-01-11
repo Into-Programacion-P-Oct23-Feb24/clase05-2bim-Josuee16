@@ -18,14 +18,16 @@ public class Ejemplo06 {
         
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
-                    obtenerSuma(valor1[i], valor2[i]));
+                    obtenerSuma(valor1[i], valor2[i])); //imprimimos los
+            //valores del arreglo
         }
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
-                    obtenerSuma(num1, num2));
+                    obtenerSuma(num1, num2)); // pasamos los valores
+            //los transformamos a una varibale entera y los enviamos
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -33,7 +35,7 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
-        }
+        }// se coge a la funcion como valor entero para presentarla
         
         
 
